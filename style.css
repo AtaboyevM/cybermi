@@ -262,7 +262,7 @@ html {
 
 @media screen and (max-width: 375px) {
   .gadjets-480 {
-    width: 459px;
+    width: 355px;
     display: inline;
   }
 
@@ -321,7 +321,7 @@ html {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .category-con {
     padding: 40px 16px;
     height: auto;
@@ -422,7 +422,7 @@ html {
   cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .products-section {
     padding: 0 16px;
   }
@@ -564,7 +564,7 @@ html {
 .proProds {
   display: inline;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .proProduct {
     flex-direction: column;
     height: auto;
@@ -716,7 +716,7 @@ html {
   }
 
   .disc-div {
-    width: 220px;
+    width: 157px;
     height: 352px;
     padding: 24px 12px 24px 12px;
     display: flex;
@@ -822,7 +822,7 @@ html {
   color: #ffffff;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .footer {
     width: 100%;
     height: 714px;
