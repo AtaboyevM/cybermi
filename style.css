@@ -100,7 +100,7 @@ html {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   .head-container {
     height: 64px;
     padding: 0 16px;
@@ -191,7 +191,7 @@ html {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   .hero-container {
     display: flex;
     align-items: center;
@@ -260,7 +260,7 @@ html {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   .gadjets-480 {
     width: 459px;
     display: inline;
@@ -321,7 +321,7 @@ html {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   .category-con {
     padding: 40px 16px;
     height: auto;
@@ -422,7 +422,7 @@ html {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   .products-section {
     padding: 0 16px;
   }
@@ -564,7 +564,7 @@ html {
 .proProds {
   display: inline;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   .proProduct {
     flex-direction: column;
     height: auto;
@@ -692,7 +692,7 @@ html {
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
   .disc-con {
     width: 100%;
     height: 896px;
@@ -822,7 +822,7 @@ html {
   color: #ffffff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
   .footer {
     width: 100%;
     height: 714px;
