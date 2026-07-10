@@ -262,7 +262,7 @@ html {
 
 @media screen and (max-width: 375px) {
   .gadjets-480 {
-    width: 355px;
+    width: 100%;
     display: inline;
   }
 
