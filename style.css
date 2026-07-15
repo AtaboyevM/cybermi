@@ -96,7 +96,7 @@ html {
 
   .burger-menu {
     padding-top: 25px;
-    display: block;
+    display: none;
   }
 }
 
@@ -114,7 +114,7 @@ html {
 
   .burger-menu {
     padding-top: 25px;
-    display: inline;
+    display: block;
   }
 }
 /* Header End */
