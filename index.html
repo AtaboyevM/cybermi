@@ -28,7 +28,7 @@
       <nav class="navbar-contain">
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="../products/products.html">Product Page</a></li>
+          <li><a href="products/products.html">Product Page</a></li>
           <li><a href="#contact">Contact Us</a></li>
           <li><a href="#blog">Blog</a></li>
         </ul>
@@ -36,11 +36,28 @@
       <!-- navbar -->
       <div class="head-icons">
         <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-shopping-cart"></i>
+        <i class="fa-solid fa-shopping-cart headerBtn">
+          <span id="cartCount">0</span>
+        </i>
         <i class="fa-regular fa-user"></i>
       </div>
       <i class="fa-solid fa-bars burger-menu"></i>
     </header>
+
+    <section id="cart">
+      <header id="cartHeader">
+        <h2>Shopping Cart</h2>
+        <button id="cartClose">X</button>
+      </header>
+      <section id="cartItems">
+        <!-- JS dan tavarlar -->
+      </section>
+
+      <h3>Totle items: <span id="totalItems">0</span></h3>
+      <h3>Totle price: <span id="totalPrice">0</span></h3>
+
+      <button id="clearCarts">Clear Carts</button>
+    </section>
     <!-- header end -->
     <main>
       <!-- Hero Section start -->
@@ -190,7 +207,7 @@
             <span class="twoLike">🤍</span>
           </div>
 
-          <div class="disc-div">
+          <div class="disc-div hidden">
             <img class="mediawi" src="img/disc3.png" alt="Iphone 14 Pro" />
             <h3>Apple Watch Series 9 GPS 41mm Starlight Aluminium</h3>
             <span>$399</span>
@@ -199,7 +216,7 @@
             <span class="twoLike">🤍</span>
           </div>
 
-          <div class="disc-div">
+          <div class="disc-div hidden">
             <img src="img/disc4.png" alt="Iphone 14 Pro" />
             <h3>Apple iPhone 14 Pro 1TB Gold (MQ2V3)</h3>
             <span>$1499</span>
