@@ -310,7 +310,7 @@ html {
 }
 
 .burger-menu {
-  display: none;
+  display: none !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -330,7 +330,7 @@ html {
 
   .burger-menu {
     padding-top: 25px;
-    display: none;
+    display: block !important;
   }
 }
 
@@ -348,7 +348,7 @@ html {
 
   .burger-menu {
     padding-top: 25px;
-    display: block;
+    display: block !important;
   }
 }
 /* Header End */
